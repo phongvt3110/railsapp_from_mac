@@ -16,4 +16,8 @@
       <%= f.submit %>
     </p>
 
+    <p>
+      <%= link_to 'Destroy',url_for(action: :delete,id: @post.id),method: :delete, data: {confirm: "Are you sure?"} %>
+    </p>
+
 <% end %>
