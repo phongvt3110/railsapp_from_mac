@@ -14,6 +14,7 @@ Rails.application.routes.draw do
   root 'welcome#index'
   get  'hello' => 'welcome#home'
   get  'see' => 'welcome#seeyou'
+  get  'seeagain' => 'welcome#seeagain'
   get  'welcome/index' => 'welcome#index'
   get 'articles', to: 'backend/articles#index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
