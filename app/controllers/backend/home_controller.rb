@@ -6,4 +6,7 @@ class Backend::HomeController < ApplicationController
     @post.save()
     render :text => "Post created!"
   end
+  def xinchao
+    render 'index'
+  end
 end
