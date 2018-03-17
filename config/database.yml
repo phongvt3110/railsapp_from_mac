@@ -15,7 +15,7 @@
 
 default: &default
   adapter: mysql2
-  encoding: utf8_unicode_ci
+  encoding: utf8
   pool: 5
   username: adminshopper
   password: monkey3110
